@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-akcent-1: #08A6E4;
+    --color-akcent-2: #FB3B64;
+    --color-akcent-3: #55DFB4;
+    --color-small-text: #A5A5A5;
+    --color-medium-text: #707070;
+    --color-background: #F7F7F7;
+    --font-open-sans: 'Open Sans', sans-serif;
+    --font-raleway: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1352px;
+    margin: 0 auto;
+}
+
+.best-shop-logo{
+    color: var(--color-akcent-1);
+    font-family: var(--font-raleway);
+    font-weight: 300;
+    text-decoration: none;
+}
+/*SEKCJA 1 -S TYLOWANIE NAGŁÓWKA*/
+
+.header-container{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 6px #00000029;
+    opacity: 1;
+}
+
+.header-container .best-shop-logo{
+    font-size: 32px;
+    line-height: 37px;
+    margin: 16px 0 17px 136px;
+}
+
+.shop-nav{
+    height: 100%;
+}
+
+.page-nav-list{
+    display: flex;
+    height: 100%;
+}
+
+.page-nav-list li{
+    padding: 0 26px;
+    text-align: center;
+}
+
+.page-nav-list li a{
+    text-decoration: none;
+    color: var(--color-small-text);
+    font-family: var(--font-open-sans);
+    line-height: 15px;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 3.28px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-bottom: 4px solid transparent;
+    padding: 28px 18px 22px;
+}
+
+.page-nav-list li:last-child {
+    padding-right: 0;
+}
+
+.page-nav-list li a:hover{
+    border-color: var(--color-akcent-1);
+    color: #000000;
+}
+
+/*STYLOWANIE SEKCJI wspólne*/
+.sections-header{
+    font-family: var(--font-raleway);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    color: #000000;
+}
+
+/* SEKCJA 2 - STYLOWANIE SEKCJI OPENING PLATFORMA*/
+
+.opening-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.opening-section-content{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.opening-section-img{
+    width: 100%;
+}
+
+.opening-section-title{
+    font-family: var(--font-raleway);
+    font-weight: 400;
+    font-size: 49px;
+    margin-bottom: 20px;
+}
+
+.opening-section-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-open-sans);
+    line-height: 22px;
+    margin-bottom: 38px;
+}
+
+.btn-cta{
+    font-family: var(--font-open-sans);
+    background: var(--color-akcent-1);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding: 22px 0 23px 0;
+    color: #fff;
+    box-shadow: 5px 10px 14px #07ACE629;
+    height: 67px;
+    width: 440px;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+/*SEKCJA 3*/
+
+.section-sales-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-sales-content{
+    margin-top: 100px ;
+}
+.section-sales-content h2{
+    padding-bottom: 100px;
+}
+
+.header-col{
+    font-family: var(--font-raleway);
+    font-size: 20px;
+    letter-spacing: 6px;
+    font-weight: 800;
+    color: black;
+    text-align: center;
+    margin: 22px 0 19px 0;
+}
+.text-col{
+    font-family: var(--font-raleway);
+    color: var(--color-small-text);
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.sales-column-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sales-column2{
+    margin: 0 200px;
+}
+
+.sales-column-content img{
+    float: right;
+    margin-bottom: 23px;
+}
+.sales-column1:before{
+    background-color: var(--color-akcent-2);
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    position: absolute;
+    content: "";
+    display: block;
+    right: 5px;
+}
+
+/*SEKCJA 4*/
+.btn-price{
+    font-family: var(--font-open-sans);
+    font-size: 13px;
+}
+
+
+.btn-price1{
+    background: var(--color-akcent-2);
+
+}
+
+.btn-price2{
+
+}
+.btn-price3{
+
+}
+/*STYLOWANIE SEKCJI BLOG*/
+
+
+/*STYLOWANIE SEKCJI PRICING*/
+
+
+/*STYLOWANIE SEKCJI FORM*/
+
+/*STYLOWANIE STOPKI*/
+.logo-footer .best-shop-logo{
+    font-size: 26px;
+    line-height: 30px;
+}
